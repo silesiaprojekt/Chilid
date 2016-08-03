@@ -1,0 +1,239 @@
+html {
+
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+}
+.wraper {
+    max-width: 1170px;
+
+    background-color: plum;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wraper11 {
+    max-width: 1170px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.wrap8 {
+    margin: 15px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+.foto1 {
+    background: red;
+    margin-right: 15px;
+    width: 334px;
+    height: 612px;
+    background: url(../img/img-1.jpg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    position: relative;
+    overflow: hidden;
+}
+.foto1 img {
+    z-index: 100;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.layer1 {
+    height: 812px;
+    width: 334px;
+    background: white;
+    opacity: 0.8;
+    position: absolute;
+    right: -135px;
+    -webkit-transform: rotate(29deg);
+    transform: rotate(29deg);
+}
+.foto2 {
+    background: blue;
+    margin-right: 15px;
+    width: 334px;
+    height: 612px;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/img-2.jpg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.foto2 img {
+    z-index: 100;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.layer2 {
+    height: 812px;
+    width: 334px;
+    background: white;
+    opacity: 0.8;
+    position: absolute;
+    left: -135px;
+    -webkit-transform: rotate(-29deg));
+    transform: rotate(-29deg);
+}
+.text {
+    background: white;
+    width: 442px;
+    height: 612px;
+}
+.text-header {
+    height: 76px;
+    width: 100%;
+    background: #7EC8EA;
+}
+.text-header h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    margin: 0;
+    padding: 7px;
+    letter-spacing: 7px;
+}
+.text-header img {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.text-text {
+    margin: 14px;
+}
+.sekcja {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 45px;
+    margin-top: 30px;
+}
+.number {
+    background: white;
+    margin-right: 25px;
+    min-width: 60px;
+    height: 45px;
+    box-sizing: border-box;
+    border-bottom: 7px solid #1883b4;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+.txt {
+    font-family: 'Lato', sans-serif;
+    min-width: 150px;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrap7 {
+    margin: 15px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.fot1 {
+    height: 478px;
+    width: 262px;
+    background: white;
+    margin-right: 30px;
+    border-top: 10px solid #8393CA;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.fot1 img {
+    width: 232px;
+    height: 438px;
+}
+.fot2 {
+    height: 478px;
+    width: 262px;
+    background: white;
+    margin-right: 30px;
+    border-top: 10px solid #FAAD81;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.fot2 img {
+    width: 232px;
+    height: 438px;
+}
+.fot3 {
+    height: 478px;
+    width: 262px;
+    background: white;
+    margin-right: 30px;
+    border-top: 10px solid #A3D49C;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.fot3 img {
+    width: 232px;
+    height: 438px;
+}
+.fot4 {
+    height: 478px;
+    width: 262px;
+    background: white;
+    border-top: 10px solid #E5B6E7;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.fot4 img {
+    width: 232px;
+    height: 438px;
+}
+
+
+
+
+
+
+
+
+.head {
+    height: 650px;
+    width: 100%;
+    background: url(../img/header.jpg);
+    background-color: transparent;
+}
+
+.head h1 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
